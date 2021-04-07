@@ -49,6 +49,41 @@ vector<FiguraGeometrica*> Interpretador::parse(string filename)
                     ss >> x0 >> y0 >> z0 >> r >> g >> b;
                     figs.push_back(new PutVoxel(x0,y0,z0,r,g,b));
                 }
+                else if(token.compare("cutvoxel") == 0){
+                    int x0, y0, z0;
+                    ss >> x0 >> y0 >> z0 >> r >> g >> b;
+                    figs.push_back(new CutVoxel(x0,y0,z0,r,g,b));
+                }
+                else if(token.compare("putbox") == 0){
+                    int x0, x1, y0, y1, z0, z1;
+                    ss >> x0 >> x1 >> y0 >> y1 >> z0 >> z1 >> r >> g >> b;
+                    figs.push_back(new PutBox(x0,x1,y0,y1,z0,z1,r,g,b));
+                }
+                else if(token.compare("cutbox") == 0){
+                    int x0, x1, y0, y1, z0, z1;
+                    ss >> x0 >> x1 >> y0 >> y1 >> z0 >> z1 >> r >> g >> b;
+                    figs.push_back(new CutBox(x0,x1,y0,y1,z0,z1,r,g,b));
+                }
+                else if(token.compare("putsphere") == 0){
+                    int xc, yc, zc, raio;
+                    ss >> xc >> yc >> zc >> raio >> r >> g >> b;
+                    figs.push_back(new PutSphere(xc,yc,zc,raio,r,g,b));
+                }
+                else if(token.compare("cutsphere") == 0){
+                    int xc, yc, zc, raio;
+                    ss >> xc >> yc >> zc >> raio >> r >> g >> b;
+                    figs.push_back(new CutSphere(xc,yc,zc,raio,r,g,b));
+                }
+                else if(token.compare("putellipsoid") == 0){
+                    int x, y, z, rx, ry, rz;
+                    ss >> x >> y >> z >> rx >> ry >> rz >> r >> g >> b;
+                    figs.push_back(new PutEllipsoid(x,y,z,rx,ry,rz,r,g,b));
+                }
+                else if(token.compare("cutellipsoid") == 0){
+                    int x, y, z, rx, ry, rz;
+                    ss >> x >> y >> z >> rx >> ry >> rz >> r >> g >> b;
+                    figs.push_back(new CutEllipsoid(x,y,z,rx,ry,rz,r,g,b));
+                }
             }
         }
     }
