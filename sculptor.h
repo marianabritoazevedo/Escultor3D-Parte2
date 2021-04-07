@@ -17,8 +17,8 @@ public:
   Sculptor(int _nx, int _ny, int _nz);
   ~Sculptor();
   void setColor(float _r, float _g, float _b);
-  void putVoxel(int x, int y, int z);
-  void cutVoxel(int x, int y, int z);
+  void putVoxel(int x0, int y0, int z0);
+  void cutVoxel(int x0, int y0, int z0);
   void writeOFF(char *filename);
 };
 

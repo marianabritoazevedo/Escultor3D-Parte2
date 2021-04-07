@@ -8,7 +8,14 @@ CONFIG -= app_bundle
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+        cutbox.cpp \
+        cutellipsoid.cpp \
+        cutsphere.cpp \
+        cutvoxel.cpp \
+        interpretador.cpp \
         main.cpp \
+        putbox.cpp \
+        putellipsoid.cpp \
         putsphere.cpp \
         putvoxel.cpp \
         sculptor.cpp
@@ -20,6 +27,13 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     FiguraGeometrica.h \
+    cutbox.h \
+    cutellipsoid.h \
+    cutsphere.h \
+    cutvoxel.h \
+    interpretador.h \
+    putbox.h \
+    putellipsoid.h \
     putsphere.h \
     putvoxel.h \
     sculptor.h
