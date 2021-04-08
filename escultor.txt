@@ -1,0 +1,204 @@
+dim 100 100 100
+putellipsoid 25 25 25 9 6 3 10 55 84
+cutvoxel 25 25 28
+cutvoxel 25 31 25
+cutvoxel 34 25 25
+cutvoxel 16 25 25
+cutvoxel 25 19 25
+cutvoxel 25 25 22
+
+cutvoxel 22 25 27
+cutvoxel 21 25 27
+cutvoxel 20 25 27
+cutvoxel 28 25 27
+cutvoxel 29 25 27
+cutvoxel 30 25 27
+
+cutvoxel 31 26 27
+cutvoxel 19 26 27
+
+cutvoxel 25 22 27
+cutvoxel 26 23 27
+cutvoxel 24 23 27
+
+putvoxel 22 25 27 255 255 255
+putvoxel 21 25 27 255 255 255
+putvoxel 20 25 27 255 255 255
+putvoxel 28 25 27 255 255 255
+putvoxel 29 25 27 255 255 255
+putvoxel 30 25 27 255 255 255
+putvoxel 31 26 27 255 255 255
+putvoxel 19 26 27 255 255 255
+putvoxel 25 22 27 255 255 255
+putvoxel 26 23 27 255 255 255
+putvoxel 24 23 27 255 255 255
+
+putsphere 35 29 25 3 255 255 255
+putsphere 15 29 25 3 255 255 255
+
+putvoxel 21 31 25 255 255 255
+putvoxel 22 31 25 255 255 255
+putvoxel 23 31 25 255 255 255
+putvoxel 24 31 25 255 255 255
+putvoxel 25 31 25 255 255 255
+putvoxel 26 31 25 255 255 255
+putvoxel 27 31 25 255 255 255
+putvoxel 28 31 25 255 255 255
+putvoxel 29 31 25 255 255 255
+
+putvoxel 22 31 26 255 255 255
+putvoxel 23 31 26 255 255 255
+putvoxel 24 31 26 255 255 255
+putvoxel 25 31 26 255 255 255
+putvoxel 26 31 26 255 255 255
+putvoxel 27 31 26 255 255 255
+putvoxel 28 31 26 255 255 255
+
+putvoxel 22 31 24 255 255 255
+putvoxel 23 31 24 255 255 255
+putvoxel 24 31 24 255 255 255
+putvoxel 25 31 24 255 255 255
+putvoxel 26 31 24 255 255 255
+putvoxel 27 31 24 255 255 255
+putvoxel 28 31 24 255 255 255
+
+putvoxel 29 30 26 255 255 255
+putvoxel 30 30 26 255 255 255
+putvoxel 31 30 26 255 255 255
+
+putvoxel 29 30 24 255 255 255
+putvoxel 30 30 24 255 255 255
+putvoxel 31 30 24 255 255 255
+
+putvoxel 21 30 24 255 255 255
+putvoxel 20 30 24 255 255 255
+putvoxel 19 30 24 255 255 255
+
+putvoxel 21 30 26 255 255 255
+putvoxel 20 30 26 255 255 255
+putvoxel 19 30 26 255 255 255
+
+putvoxel 30 31 25 255 255 255
+putvoxel 20 31 25 255 255 255
+putvoxel 31 30 25 255 255 255
+putvoxel 19 30 25 255 255 255
+putvoxel 29 31 26 255 255 255
+putvoxel 21 31 26 255 255 255
+putvoxel 29 31 24 255 255 255
+putvoxel 21 31 24 255 255 255
+putvoxel 32 29 26 255 255 255
+putvoxel 18 29 26 255 255 255
+putvoxel 32 29 24 255 255 255
+putvoxel 18 29 24 255 255 255
+
+putvoxel 22 32 24 255 255 255
+putvoxel 23 32 24 255 255 255
+putvoxel 24 32 24 255 255 255
+putvoxel 25 32 24 255 255 255
+putvoxel 26 32 24 255 255 255
+putvoxel 27 32 24 255 255 255
+putvoxel 28 32 24 255 255 255
+
+putvoxel 22 32 25 255 255 255
+putvoxel 23 32 25 255 255 255
+putvoxel 24 32 25 255 255 255
+putvoxel 25 32 25 255 255 255
+putvoxel 26 32 25 255 255 255
+putvoxel 27 32 25 255 255 255
+putvoxel 28 32 25 255 255 255
+
+putvoxel 22 32 26 255 255 255
+putvoxel 23 32 26 255 255 255
+putvoxel 24 32 26 255 255 255
+putvoxel 25 32 26 255 255 255
+putvoxel 26 32 26 255 255 255
+putvoxel 27 32 26 255 255 255
+putvoxel 28 32 26 255 255 255
+
+putvoxel 32 30 26 1 0 0
+putvoxel 32 30 25 1 0 0
+putvoxel 32 30 24 1 0 0
+
+putvoxel 18 30 26 1 0 0
+putvoxel 18 30 25 1 0 0
+putvoxel 18 30 24 1 0 0
+
+cutvoxel 33 29 27
+cutvoxel 33 28 27
+cutvoxel 37 29 27
+cutvoxel 37 28 27
+
+putvoxel 33 29 27 1 0 0
+putvoxel 33 28 27 1 0 0
+putvoxel 17 29 27 1 0 0
+putvoxel 17 28 27 1 0 0
+
+putellipsoid 25 25 22 8 5 1 255 255 255
+cutvoxel 25 25 21
+cutvoxel 33 25 22
+cutvoxel 17 25 22
+cutvoxel 25 30 22
+cutvoxel 25 20 22
+
+putvoxel 21 30 23 255 255 255
+putvoxel 22 30 23 255 255 255
+putvoxel 23 30 23 255 255 255
+putvoxel 24 30 23 255 255 255
+putvoxel 25 30 23 255 255 255
+putvoxel 26 30 23 255 255 255
+putvoxel 27 30 23 255 255 255
+putvoxel 28 30 23 255 255 255
+putvoxel 29 30 23 255 255 255
+
+putvoxel 29 29 23 255 255 255
+putvoxel 30 29 23 255 255 255
+putvoxel 31 29 23 255 255 255
+putvoxel 21 29 23 255 255 255
+putvoxel 20 29 23 255 255 255
+putvoxel 19 29 23 255 255 255
+putvoxel 32 27 23 255 255 255
+putvoxel 18 27 23 255 255 255
+putvoxel 32 28 23 255 255 255
+putvoxel 18 28 23 255 255 255
+
+putvoxel 34 24 26 255 255 255
+putvoxel 34 25 26 255 255 255
+putvoxel 34 26 26 255 255 255
+
+putvoxel 16 24 26 255 255 255
+putvoxel 16 25 26 255 255 255
+putvoxel 16 26 26 255 255 255
+
+putvoxel 22 19 26 255 255 255
+putvoxel 23 19 26 255 255 255
+putvoxel 24 19 26 255 255 255
+putvoxel 25 19 26 255 255 255
+putvoxel 26 19 26 255 255 255
+putvoxel 27 19 26 255 255 255
+putvoxel 28 19 26 255 255 255
+
+putvoxel 21 20 26 255 255 255
+putvoxel 29 20 26 255 255 255
+putvoxel 20 20 26 255 255 255
+putvoxel 30 20 26 255 255 255
+putvoxel 19 20 26 255 255 255
+putvoxel 31 20 26 255 255 255
+putvoxel 32 21 26 255 255 255
+putvoxel 18 21 26 255 255 255
+
+putvoxel 17 23 26 10 55 84
+putvoxel 33 23 26 10 55 84
+
+putvoxel 17 22 26 255 255 255
+putvoxel 33 22 26 255 255 255
+putvoxel 16 23 26 255 255 255
+putvoxel 34 23 26 255 255 255
+
+
+cutvoxel x0 y0 z0
+putbox x0 x1 y0 y1 z0 z1 r g b
+cutbox x0 x1 y0 y1 z0 z1
+putsphere x0 y0 z0 raio r g b
+cutsphere x0 y0 z0 raio
+putellipsoid x0 y0 z0 raiox raioy raioz r g b
+cutellipsoid x0 y0 z0 raio
