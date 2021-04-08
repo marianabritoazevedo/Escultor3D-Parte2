@@ -3,6 +3,9 @@
 #include "FiguraGeometrica.h"
 #include "sculptor.h"
 
+/**
+ * @brief Responsável por retirar uma elipse nas coordenadas calculadas com os parâmetros xc, yc, zc, rx, ry, rz.
+ */
 
 class CutEllipsoid : public FiguraGeometrica{
 protected:

@@ -3,6 +3,10 @@
 #include "FiguraGeometrica.h"
 #include "sculptor.h"
 
+/**
+ * @brief Responsável por retirar uma caixa encontrada nas coordenadas entre x0 e x1, y0 e y1, z0 e z1.
+ */
+
 class CutBox : public FiguraGeometrica{
 protected:
     int x0, x1, y0, y1, z0, z1;

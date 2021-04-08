@@ -1,4 +1,5 @@
 #include "putsphere.h"
+#include <cmath>
 
 PutSphere::PutSphere(int xc_, int yc_, int zc_, int radius_, float r_, float g_, float b_)
 {
@@ -15,11 +16,13 @@ void PutSphere::draw(Sculptor &s)
 {
     s.setColor(r,g,b);
     double d;
-    d = radius*radius;
+
+
     for(int i = xc-radius; i < xc+radius; i++){
         for(int j = yc-radius; j < yc+radius; j++){
             for(int k = zc-radius; k < zc+radius; k++){
-                if (static_cast<double>(i-xc)*static_cast<double>(i-xc)*static_cast<double>(j-yc)*static_cast<double>(j-yc)*static_cast<double>(k-zc)*static_cast<double>(k-zc) < d){
+                d = pow(i - xc,2) + pow(j - yc,2) + pow(k - zc,2);
+                if (d <= pow(radius,2)){
                     s.putVoxel(i,j,k);
                 }
             }

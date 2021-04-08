@@ -3,6 +3,10 @@
 #include "FiguraGeometrica.h"
 #include "sculptor.h"
 
+/**
+ * @brief Responsável por retirar uma esfera com as coordenadas do seu centro (xc, yc, zc) e de raio r.
+ */
+
 class CutSphere : public FiguraGeometrica{
 protected:
     int xc, yc, zc, radius;

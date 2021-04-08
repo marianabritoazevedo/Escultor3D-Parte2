@@ -3,6 +3,9 @@
 #include "FiguraGeometrica.h"
 #include "sculptor.h"
 
+/**
+ * @brief Responsável por adicionar uma esfera com as coordenadas do seu centro (xc, yc, zc) e de raio r.
+ */
 
 class PutSphere : public FiguraGeometrica{
 protected:

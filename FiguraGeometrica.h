@@ -3,6 +3,9 @@
 #include "sculptor.h"
 
 //Esta é uma classe abstrata, não se pode instanciar um objeto da classe Figura Geométrica
+/**
+ * @brief Classe abstrata responsável para servir de base para a criação de outras figuras geométricas. Possui o método abstrato virtual puro "draw" que será reimplementado pelas classes concretas.
+ */
 
 class FiguraGeometrica{
 protected:

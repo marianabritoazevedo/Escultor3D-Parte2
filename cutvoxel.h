@@ -3,6 +3,10 @@
 #include "FiguraGeometrica.h"
 #include "sculptor.h"
 
+/**
+ * @brief Responsável por retirar um voxel encontrado nas coordenadas x,y,z.
+ */
+
 class CutVoxel: public FiguraGeometrica
 {
     int x, y, z;

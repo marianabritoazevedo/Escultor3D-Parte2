@@ -3,6 +3,9 @@
 #include "FiguraGeometrica.h"
 #include "sculptor.h"
 
+/**
+ * @brief Responsável por adicionar uma caixa encontrada nas coordenadas entre x0 e x1, y0 e y1, z0 e z1.
+ */
 
 class PutBox : public FiguraGeometrica{
 protected:

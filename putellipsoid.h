@@ -3,6 +3,10 @@
 #include "FiguraGeometrica.h"
 #include "sculptor.h"
 
+/**
+ * @brief Responsável por adicionar uma elipse nas coordenadas calculadas com os parâmetros xc, yc, zc, rx, ry, rz.
+ */
+
 class PutEllipsoid : public FiguraGeometrica{
 protected:
     int xc, yc, zc, rx, ry, rz;

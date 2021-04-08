@@ -42,7 +42,7 @@ vector<FiguraGeometrica*> Interpretador::parse(string filename)
             if(ss.good()){
                 // Verificando dimensões do objeto
                 if(token.compare("dim") == 0){
-                    //ss >> dimx >> dimy >> dimz; -> Descobrir aonde realizar a declaração dimx, dimy e dimz
+                    ss >> dimx >> dimy >> dimz; //-> Descobrir aonde realizar a declaração dimx, dimy e dimz
                 }
                 else if(token.compare("putvoxel") == 0){
                     int x0, y0, z0;

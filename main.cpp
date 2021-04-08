@@ -22,20 +22,17 @@ int main()
 
     vector<FiguraGeometrica*> figs;
 
-    figs = parser.parse("C:/Users/Thais/Documents/escultura.txt");
+    figs = parser.parse("C://Users//Thais//Documents//Escultor3D-Parte2//escultor.txt");
 
     s1 = new Sculptor(parser.getDimx(), parser.getDimy(),parser.getDimz());
 
     for(size_t i=0; i<figs.size(); i++) {
-        cout << "draw" << endl;
         figs[i]->draw(*s1);
     }
-
-    s1->writeOFF((char*)"C:/Users/Thais/Documents/saida.off");
+    s1->writeOFF((char*)"C://Users//Thais//Documents//Escultor3D-Parte2//saida.off");
     for(size_t i=0; i<figs.size(); i++){
         delete figs[i];
     }
     delete s1;
-
     return 0;
 }

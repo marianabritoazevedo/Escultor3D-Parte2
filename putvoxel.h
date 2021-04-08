@@ -3,6 +3,9 @@
 #include "FiguraGeometrica.h"
 #include "sculptor.h"
 
+/**
+ * @brief Responsável por adicionar um voxel encontrado nas coordenadas x,y,z.
+ */
 
 class PutVoxel: public FiguraGeometrica
 {
