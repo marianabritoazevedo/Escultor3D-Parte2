@@ -89,3 +89,18 @@ vector<FiguraGeometrica*> Interpretador::parse(string filename)
     }
     return(figs);
 }
+
+int Interpretador::getDimx()
+{
+    return dimx;
+}
+
+int Interpretador::getDimy()
+{
+    return dimy;
+}
+
+int Interpretador::getDimz()
+{
+    return dimz;
+}

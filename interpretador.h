@@ -6,10 +6,15 @@
 
 using namespace std;
 
-class Interpretador : public FiguraGeometrica{
+class Interpretador{
+protected:
+    int dimx, dimy, dimz;
 public:
     Interpretador();
     vector<FiguraGeometrica*> parse(string filename);
+    int getDimx();
+    int getDimy();
+    int getDimz();
 };
 
 #endif // INTERPRETADOR_H
