@@ -22,14 +22,14 @@ int main()
 
     vector<FiguraGeometrica*> figs;
 
-    figs = parser.parse("D:/DCA2020.2/git-parte-2/Escultor3D-Parte2/escultor.txt");
+    figs = parser.parse("C:/Users/Thais/Documents/Escultor3D-Parte2/escultor.txt");
 
     s1 = new Sculptor(parser.getDimx(), parser.getDimy(),parser.getDimz());
 
     for(size_t i=0; i<figs.size(); i++) {
         figs[i]->draw(*s1);
     }
-    s1->writeOFF((char*)"D:/saida-ok.off");
+    s1->writeOFF((char*)"C:/Users/Thais/Documents/Escultor3D-Parte2/saida.off");
     for(size_t i=0; i<figs.size(); i++){
         delete figs[i];
     }
