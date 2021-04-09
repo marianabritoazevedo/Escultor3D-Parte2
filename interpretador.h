@@ -16,6 +16,11 @@ protected:
     float r, g ,b;
 public:
     Interpretador();
+    /**
+     * @brief parse Função responsável pela leitura do arquivo escultor.txt para desenhar as figuras geométricas 3D
+     * @param filename Nome do arquivo
+     * @return retorna um ponteiro com todos os desenhos das figuras geométricas colocados no arquivo
+     */
     vector<FiguraGeometrica*> parse(string filename);
     int getDimx();
     int getDimy();

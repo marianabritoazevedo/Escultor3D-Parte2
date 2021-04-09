@@ -18,7 +18,7 @@ void CutSphere::draw(Sculptor &s)
     for(int i = xc-radius; i < xc+radius; i++){
         for(int j = yc-radius; j < yc+radius; j++){
             for(int k = zc-radius; k < zc+radius; k++){
-                if (static_cast<double>(i-xc)*static_cast<double>(i-xc)*static_cast<double>(j-yc)*static_cast<double>(j-yc)*static_cast<double>(k-zc)*static_cast<double>(k-zc) < d){
+                if (static_cast<double>(i-xc)*static_cast<double>(i-xc) + static_cast<double>(j-yc)*static_cast<double>(j-yc) + static_cast<double>(k-zc)*static_cast<double>(k-zc) < d){
                     s.cutVoxel(i,j,k);
                 }
             }
